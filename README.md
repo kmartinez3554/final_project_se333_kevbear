@@ -1,8 +1,5 @@
-# SE333 Final Project — AI-Powered Testing Agent
+# SE333 Final Project
 
-An intelligent testing agent built with **Model Context Protocol (MCP)** that automatically generates, executes, and iterates on JUnit 5 test cases to maximise code coverage on a Java Maven project.
-
----
 
 ## Project Structure
 
@@ -60,8 +57,6 @@ uv add "mcp[cli]" httpx fastmcp
 ```bash
 python main.py
 ```
-
-You should see FastMCP start on `http://127.0.0.1:8000/sse`.
 
 ### 4. Connect the server to VS Code
 
